@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot PID</title>
+</head>
+<body>
+    <h2>Chatbot pro výrobní dokumentaci</h2>
+    <div id="messages"></div>
+    <input id="input" type="text" placeholder="Zadej dotaz" />
+    <button onclick="sendMessage()">Odeslat</button>
+
+    <script>
+        async function sendMessage() {
+            const input = document.getElementById("input");
+            const messages = document.getElementById("messages");
+
+            const userMsg = input.value;
+            messages.innerHTML += `<p><strong>Ty:</strong> ${userMsg}</p>`;
+            input.value = "";
+
+            const res = await fetch("/chat", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message: userMsg })
+            });
+
+            const data = await res.json();
+            messages.innerHTML += `<p><strong>Bot:</strong> ${data.answer}</p>`;
+        }
+    </script>
+</body>
+</html>

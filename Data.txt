@@ -1,0 +1,188 @@
+1. Home 
+Vítej v interním návodu k nástroji PID – Production Intelligence Dashboard. 
+Tento přehled tě provede všemi klíčovými částmi dashboardu, rolemi uživatelů, metrikami i praktickými scénáři použití. 
+Pomocí rychlých odkazů níže se snadno dostaneš do jednotlivých sekcí návodu. 
+Stránky v PID 
+Přihlášení do Dashboardu PID 
+Domovská stránka 
+Statistics 
+Traceability 
+Setup 
+Configuration 
+Testovací stránka 
+Linky 
+Seznam linek 
+ 
+2. Přihlášení do Dashboardu PID 
+Úvod 
+Tento dokument poskytuje podrobný návod pro přihlášení do firemního Dashboardu s využitím autentizace proti Active Directory (AD). Přihlášení umožňuje centralizovanou správu uživatelů a využívá standardy zabezpečení firemní sítě. 
+  
+Postup přihlášení 
+1. Otevřete podporovaný webový prohlížeč. 
+a. Do adresního řádku zadejte URL viz tlačítko níže: Production Intelligence Dashboard 
+b. Stiskněte Enter 
+ 
+3. Domovská stránka 
+ 
+4. Statistics 
+Dokumentace k sekci Statistics v PID 
+Statistics v Dashboardu poskytuje uživateli přehledné reporty a analytické údaje související s výrobními procesy, provozní efektivitou a výkonností systému. Tato stránka slouží ke sledování klíčových metrik a identifikaci potenciálních problémů. 
+1. Přehled dostupných reportů 
+Po vstupu do sekce Statistics má uživatel přístup k následujícím reportům: 
+1.1 ScanPoint Report 
+* Přehled aktivity jednotlivých ScanPointů v systému. 
+* Zobrazuje informace o počtu skenů, průchodnosti a případných anomáliích. 
+1.2 OEE Report (Overall Equipment Effectiveness) 
+* Analytický report hodnotící efektivitu výrobních zařízení. 
+* Obsahuje metriky dostupnosti, výkonu a kvality. 
+* Pomáhá identifikovat úzká místa ve výrobě. 
+1.3 MTTR/MTBF Report 
+* MTTR (Mean Time to Repair) – průměrný čas potřebný k opravě zařízení. 
+* MTBF (Mean Time Between Failures) – průměrný čas mezi poruchami. 
+* Pomáhá sledovat spolehlivost výrobního vybavení a efektivitu údržby. 
+1.4 TOP Downtimes 
+* Seznam nejčastějších nebo nejdelších prostojů ve výrobě. 
+* Identifikace hlavních příčin výpadků a jejich dopadu na výrobu. 
+1.5 Report of Bypassed ScanPoints 
+* Přehled ScanPointů, které byly obcházeny nebo nebyly použity dle standardních postupů. 
+* Pomáhá identifikovat potenciální problémy s dodržováním procesů. 
+1.6 Report of Unfinished Production 
+* Seznam výrobních úkolů, které nebyly dokončeny v plánovaném čase. 
+* Umožňuje analyzovat důvody zpoždění a implementovat opatření ke zlepšení. 
+1.7 Staff Count Report 
+* Přehled aktuálního počtu pracovníků zapojených do výroby. 
+* Možnost sledování změn v personálním obsazení v čase. 
+1.8 Check Parts / Check Pieces (Incidents Report) 
+* Záznam incidentů souvisejících s kontrolou výrobních dílů. 
+* Identifikace problémových oblastí v kvalitě výroby. 
+1.9 Report of CC Training 
+* Přehled absolvovaných školení v oblasti CC (Critical Control). 
+* Záznam o proškolených pracovnících a jejich způsobilosti. 
+1.10 Check Pieces Log 
+* Detailní log jednotlivých kontrolovaných výrobků. 
+* Sleduje výsledky kontrol a identifikuje potenciální výrobní problémy. 
+1.11 Production Report 
+* Celkový přehled výrobního výkonu za definované období. 
+* Obsahuje klíčové metriky výroby, efektivity a plnění plánů. 
+  
+2. Možné problémy a jejich řešení 
+2.1 Data v reportech nejsou aktuální 
+* Ověřte připojení k firemní síti. 
+* Zkuste stránku aktualizovat nebo se odhlásit a znovu přihlásit. 
+* Pokud problém přetrvává, kontaktujte IT podporu. 
+2.2 Chybějící nebo nekompletní data v reportech 
+* Zkontrolujte nastavení filtrů a časového období. 
+* Ověřte, zda má váš uživatelský účet oprávnění k zobrazení všech dat. 
+* Kontaktujte IT oddělení pro podrobnější analýzu. 
+3. Kontakt na IT podporu 
+V případě jakýchkoliv problémů kontaktujte IT oddělení na e-mailu itpodpora@firma.cz nebo telefonním čísle +420 123 456 789. 
+ 
+5. Traceability 
+ 
+6. Setup 
+ 
+7. Configuration 
+ 
+8. Testovací stránka 
+1.   Vnitřní svět vítězů 
+"Vnitřní svět vítězů" od Mariána Jelínka se zaměřuje na mentální aspekty úspěchu ve sportu i v životě. Jelínek, sportovní kouč a mentor, se ve své knize zabývá tím, co odlišuje vítěze od ostatních, a to nejen na úrovni dovedností či fyzických schopností, ale hlavně v jejich vnitřním světě – v přístupu k sobě samým a k okolnímu světu. 
+Hlavní myšlenky knihy: 
+1. Psychika a emoce vítězů: Klíč k úspěchu nespočívá pouze v tvrdém tréninku a dovednostech, ale hlavně v práci s vlastní myslí a emocemi. Vítězové umí udržet soustředění, zvládat stres a pracovat s vlastními obavami. 
+2. Role motivace a smyslu: Jelínek zdůrazňuje, že vítězství nepřichází jen díky touze po výsledku. Úspěšní lidé často nacházejí v tom, co dělají, hlubší smysl, což je žene dál i v těžkých chvílích. 
+3. Autenticita: Klíčovou roli hraje autenticita, tedy být pravdivý sám k sobě. Ti, kteří jsou sami sebou a nehrají si na někoho jiného, mají pevnější základy a větší mentální stabilitu. 
+4. Flow: Jelínek rozebírá koncept "flow" – stav, kdy je člověk naprosto ponořený do své činnosti a dosahuje tak maximálního výkonu. Tento stav je jedním z pilířů úspěchu a vítězové se v něm často nacházejí. 
+5. Práce s neúspěchem: Neúspěch je pro každého nevyhnutelný, ale vítězové ho vnímají jako příležitost k učení a zlepšení, nikoli jako konec cesty. 
+Jelínek v knize často čerpá ze zkušeností sportovních šampionů, s nimiž pracoval, a propojuje sportovní přístup s každodenním životem, čímž ukazuje, jak si může každý osvojit "vnitřní svět vítězů". 
+ 
+  
+2.   Trénink herní přirozenosti 
+"Trénink herní přirozenosti" od Luďka Bukače je kniha zaměřená na výchovu a rozvoj sportovců, zejména hokejistů, s důrazem na rozvoj jejich herní inteligence a přirozenosti při hře. Luděk Bukač, jako zkušený trenér, v ní sdílí své dlouholeté poznatky a zkušenosti, jak efektivně trénovat a vést sportovce k úspěchu. 
+Hlavní myšlenky knihy: 
+1. Herní inteligence: Zásadní pro úspěch sportovce je schopnost rychle a správně se rozhodovat v průběhu hry. Bukač klade důraz na rozvoj herního myšlení, tedy schopnosti číst hru, předvídat situace a efektivně reagovat. 
+2. Přirozenost v pohybu: Důležitá je přirozená koordinace pohybů a to, aby hráči zvládali technické dovednosti automaticky a intuitivně. To jim umožňuje soustředit se na strategii a rozhodování, místo toho, aby přemýšleli o samotném pohybu. 
+3. Tvorba herní individuality: Každý hráč by měl být podporován v rozvoji své individuality. Bukač zdůrazňuje, že univerzální přístup nefunguje, a každý sportovec má svůj jedinečný herní styl, který je třeba rozvíjet. 
+4. Komplexní trénink: Trénink by neměl být jen fyzický, ale měl by zahrnovat i mentální a emoční složku. Bukač zdůrazňuje propojení techniky, taktiky a psychologie, aby hráči byli kompletně připraveni na tlak herní situace. 
+5. Důraz na kreativitu a improvizaci: Kromě naučených vzorců chování je důležité, aby hráči byli schopni improvizovat a tvořit nové herní situace. Kreativita ve hře je klíčem k tomu, aby tým byl nepředvídatelný a úspěšný. 
+6. Dlouhodobý vývoj: Bukač upozorňuje, že sportovní úspěch nevzniká přes noc. Je třeba dlouhodobého plánování, systematického tréninku a neustálého zdokonalování herních dovedností. 
+Kniha je tedy komplexním průvodcem pro trenéry i sportovce, kteří chtějí rozvíjet své dovednosti nad rámec fyzického tréninku a zaměřit se na komplexní přístup k rozvoji herní přirozenosti a inteligence. 
+ 
+  
+3.   Hokejová vizualizace 
+"Hokejová vizualizace" od Jana Andrýska se zabývá využitím vizualizace jako mentální techniky pro zlepšení výkonu hokejistů. Autor, zkušený sportovní psycholog, představuje praktické návody a metody, jak si sportovci mohou pomocí vizualizace zlepšit své herní dovednosti, mentální odolnost a sebedůvěru. 
+Hlavní myšlenky knihy: 
+1. Vizualizace jako tréninková technika: Vizualizace je schopnost si ve své mysli představit herní situace, pohyby nebo cíle. Jan Andrýsek zdůrazňuje, že pravidelná vizualizace může vést ke zlepšení fyzického výkonu, protože mozek a tělo jsou propojené. Vizualizace pomáhá připravit hráče na skutečné herní situace, zvyšuje jejich přesnost a jistotu. 
+2. Mentální příprava: Kniha se zaměřuje na důležitost mentální přípravy sportovce. Vizualizace umožňuje hráčům se předem psychicky připravit na důležité zápasy nebo těžké herní momenty, což může výrazně snížit stres a nervozitu. 
+3. Zlepšení techniky a taktiky: Vizualizace je užitečná při zdokonalování technických dovedností, jako je střelba, bruslení nebo vedení puku. Hráči si mohou opakovaně přehrávat ve své mysli správnou techniku, což urychluje proces učení a vylepšuje jejich pohybovou paměť. 
+4. Práce s emocemi a sebedůvěrou: Andrýsek poukazuje na to, že vizualizace pomáhá sportovcům zvládat emoce, jako je strach, stres nebo frustrace. Vytváří pozitivní mentální obrazy úspěchu, které mohou posilovat sebedůvěru a odvahu hráčů. 
+5. Individuální přístup: Každý sportovec má jiný mentální přístup, a proto je vizualizace přizpůsobitelná individuálním potřebám. Kniha nabízí různé techniky a cvičení, které lze přizpůsobit jednotlivcům podle jejich herní role a požadavků. 
+6. Použití mimo led: Vizualizace není jen o hokeji na ledě, ale je použitelná i v každodenním životě sportovce. Pomáhá s celkovou psychickou pohodou, zlepšuje soustředění a umožňuje zvládat tlak mimo herní situace. 
+Kniha "Hokejová vizualizace" je tedy praktickým průvodcem, jak využít mentální techniku vizualizace k zlepšení sportovního výkonu, zvýšení sebedůvěry a zvládání stresových situací. Je vhodná jak pro sportovce, tak pro trenéry, kteří chtějí integrovat mentální trénink do svého režimu. 
+ 
+  
+4.   Jak vychovat šampiona – KAMEVÉDA 
+"Jak vychovat šampiona" od Pavla Zachy je kniha zaměřená na rodiče a trenéry, kteří chtějí vychovávat úspěšné sportovce, ale také psychicky odolné a vyrovnané osobnosti. Pavel Zacha, otec a mentor úspěšného hokejisty Pavla Zachy mladšího, sdílí své zkušenosti s výchovou šampiona, který se prosadil v profesionálním hokeji, ale také se soustředí na celkový rozvoj osobnosti mladého sportovce. 
+Hlavní myšlenky knihy: 
+1. Komplexní výchova: Zacha zdůrazňuje, že sportovní úspěch by neměl být jediným cílem rodičů a trenérů. Důležité je vést dítě k tomu, aby bylo nejen dobrým sportovcem, ale také vyrovnanou a zodpovědnou osobností. Sport by měl být prostředkem pro rozvoj charakteru, disciplíny a odolnosti. 
+2. Podpora, ne tlak: Klíčovým prvkem výchovy šampiona je podpora, nikoli tlak. Rodiče a trenéři by měli dítě motivovat a pomáhat mu zvládat neúspěchy, ale ne na něj vyvíjet nadměrný tlak, který by mohl vést k frustraci nebo vyhoření. 
+3. Důležitost vzdělání: Kromě sportovního rozvoje klade Zacha důraz i na vzdělání. V knize je popsáno, jak kombinovat vrcholový sport se školou a jak zajistit, aby si dítě osvojilo návyky, které mu pomohou uspět i mimo sportovní kariéru. 
+4. Mentální odolnost: Kromě fyzické připravenosti je pro šampiona důležitá také psychická odolnost. Pavel Zacha se věnuje tomu, jak mladé sportovce připravit na zvládání stresu, neúspěchů a tlaku, kterému čelí v konkurenčním sportovním prostředí. 
+5. Dlouhodobý vývoj: Kniha upozorňuje na to, že cesta k úspěchu je dlouhá a plná překážek. Rodiče a trenéři by měli mít trpělivost a soustředit se na dlouhodobý rozvoj dětí, nikoli jen na okamžité výsledky. Klíčové je budování správných návyků a mentality. 
+6. Vztah rodičů a trenérů: Důležitou součástí výchovy je dobrá spolupráce mezi rodiči a trenéry. Zacha zdůrazňuje, že oba mají různé, ale doplňující se role – rodiče poskytují emocionální podporu, zatímco trenéři se starají o technické a sportovní aspekty. 
+Kniha "Jak vychovat šampiona" nabízí praktické rady pro rodiče a trenéry, jak podporovat dítě na cestě ke sportovnímu úspěchu, aniž by se ztratilo zřetele jeho celkové osobní a mentální zdraví. Je to průvodce nejen pro výchovu vrcholových sportovců, ale i sebevědomých a úspěšných lidí. 
+ 
+  
+5.   Strategie úspěšné výchovy – KAMEVÉDA 
+"Strategie úspěšné výchovy" od Pavla Zachy je pokračováním jeho přístupu k výchově mladých sportovců a zároveň návodem, jak vychovat nejen úspěšné sportovce, ale i zdravě sebevědomé a mentálně odolné osobnosti. Zacha, který má zkušenosti jako otec profesionálního hokejisty Pavla Zachy mladšího, nabízí v knize konkrétní postupy a strategie pro rodiče a trenéry, které mohou pomoci dětem uspět nejen ve sportu, ale i v životě. 
+Hlavní myšlenky knihy: 
+1. Výchova k úspěchu: Zacha v knize prezentuje strategii, jak vést děti k úspěchu dlouhodobým a systematickým způsobem. Klíčová je kombinace fyzické, mentální a emocionální přípravy, která vytváří pevný základ pro budoucí úspěch, a to nejen v oblasti sportu. 
+2. Vyvážení sportu a vzdělání: Stejně jako v předchozích knihách zdůrazňuje důležitost vyvážení sportovních aktivit a vzdělávání. Děti by měly rozvíjet nejen své sportovní dovednosti, ale také intelektuální a společenské schopnosti, které jim otevřou dveře k různým příležitostem. 
+3. Důraz na vnitřní motivaci: Pro trvalý úspěch je zásadní, aby dítě mělo vnitřní motivaci. Zacha se věnuje tomu, jak rodiče a trenéři mohou podpořit přirozený zájem a touhu dítěte zlepšovat se, aniž by se zaměřovali pouze na výsledky nebo vnější ocenění. 
+4. Mentální trénink: Zacha klade důraz na to, že úspěšní sportovci mají nejen fyzickou, ale i mentální sílu. Kniha obsahuje rady, jak dětem pomoci zvládat tlak, učit se z neúspěchů a rozvíjet psychickou odolnost, která je nezbytná pro překonávání překážek. 
+5. Rodičovská role: Rodiče hrají klíčovou roli při formování postojů a hodnot svých dětí. Kniha radí, jak rodiče mohou podpořit dítě, aniž by ho přetěžovali, a jak vytvořit harmonické rodinné prostředí, které podporuje zdravý rozvoj sportovce i osobnosti. 
+6. Práce s trenéry: Zacha zdůrazňuje důležitost spolupráce rodičů s trenéry. Komunikace mezi nimi by měla být konstruktivní a orientovaná na dlouhodobý rozvoj dítěte. Vztah rodič–trenér je klíčový pro to, aby dítě dostalo tu nejlepší podporu jak po sportovní, tak po osobnostní stránce. 
+7. Etika a hodnoty: Kromě samotné výchovy k úspěchu se kniha zaměřuje i na to, jak děti vychovávat k morálním hodnotám a etickému chování. Zacha se soustředí na výchovu zodpovědných a čestných jedinců, kteří umí zvládat nejen úspěchy, ale i nezdary. 
+"Strategie úspěšné výchovy" je tedy komplexní návod, jak systematicky a efektivně vychovávat děti k úspěchu, nejen ve sportu, ale i v životě. Kniha propojuje sportovní a osobnostní výchovu, čímž rodičům a trenérům nabízí inspiraci, jak vychovat sebevědomé a zodpovědné mladé lidi připravené čelit výzvám života. 
+ 
+  
+6.   Sportovní psychologie 
+"Sportovní psychologie" od Dany Štěrbové a dalších autorů je učebnice zaměřená na klíčové psychologické aspekty sportovního výkonu a jejich aplikaci v praxi. Kniha slouží jako teoretický i praktický průvodce pro trenéry, sportovce a všechny, kteří se zajímají o to, jak mentální faktory ovlivňují sportovní výkonnost. 
+Hlavní myšlenky knihy: 
+1. Psychologie ve sportu: Kniha vysvětluje, jak zásadní roli hraje psychologie ve sportu a jak mohou mentální faktory ovlivnit fyzický výkon sportovce. Představuje teorii sportovní psychologie a poskytuje základní rámec pro pochopení toho, jak mysl ovlivňuje tělo. 
+2. Mentální příprava: Sportovci často čelí stresu, tlaku a očekáváním. Kniha se věnuje tomu, jak mentální příprava a techniky, jako je vizualizace, relaxace a zvládání stresu, mohou sportovcům pomoci zvýšit jejich výkon a překonat mentální bariéry. 
+3. Motivace a sebedůvěra: Motivace je jedním z klíčových témat knihy. Autoři zkoumají, jak mohou trenéři a sportovci pracovat s různými typy motivace (vnitřní a vnější) a jak lze budovat a udržovat sebedůvěru, což je důležité pro stabilní výkony. 
+4. Emoční kontrola: Schopnost zvládat emoce, jako je úzkost, frustrace nebo hněv, je pro sportovce klíčová. Kniha nabízí rady a metody, jak se naučit ovládat své emoce a jak dosáhnout optimálního psychického stavu před důležitými závody nebo zápasy. 
+5. Týmová dynamika: Sportovní psychologie se také zabývá tím, jak fungují sportovní týmy a jak mohou psychologické faktory ovlivňovat týmovou spolupráci. Autoři popisují roli komunikace, vedení a důvěry v týmu, a jak mohou trenéři budovat soudržnost týmu. 
+6. Zvládání neúspěchu: Neúspěch je neoddělitelnou součástí sportu, a proto kniha klade důraz na to, jak sportovci mohou pracovat s neúspěchem, učit se z chyb a zachovat si pozitivní přístup, který je klíčový pro dlouhodobý úspěch. 
+7. Význam relaxace a regenerace: Kromě fyzického tréninku je důležitá i psychická regenerace. Autoři se zabývají metodami, jak sportovci mohou relaxovat a regenerovat, aby se vyhnuli syndromu vyhoření a udrželi si dlouhodobě vysokou výkonnost. 
+Kniha "Sportovní psychologie" je komplexní a praktický průvodce pro všechny, kteří chtějí porozumět vlivu mentálních faktorů na sportovní výkon. Nabízí nástroje a techniky, jak pracovat s motivací, emocemi a psychickou odolností, což je zásadní pro úspěch ve vrcholovém sportu. 
+ 
+  
+7.   Sportovní trénink 
+"Sportovní trénink" od Tomáše Periče a Josefa Dovalila je komplexní učebnice zaměřená na teoretické a praktické aspekty sportovního tréninku. Kniha je určena pro trenéry, sportovce a studenty sportovních věd, přičemž poskytuje ucelený pohled na proces plánování, realizace a vyhodnocení tréninku. 
+Hlavní myšlenky knihy: 
+1. Základní principy tréninku: Autoři představují základní principy sportovního tréninku, které zahrnují přetížení, progresivitu, specifičnost, individualizaci a periodizaci. Tyto principy jsou klíčové pro zajištění efektivního rozvoje sportovce. 
+2. Periodizace tréninku: Kniha podrobně vysvětluje, jak správně plánovat trénink v jednotlivých cyklech (mikrocyklech, mezocyklích a makrocyklech) s cílem maximalizovat sportovní výkon a zároveň minimalizovat riziko zranění či přetížení. 
+3. Tělesná kondice a rozvoj dovedností: Trénink musí zahrnovat nejen rozvoj specifických dovedností pro daný sport, ale také všeobecnou tělesnou kondici. Autoři se zaměřují na různé typy tréninku, jako je trénink síly, vytrvalosti, rychlosti, koordinace a flexibility. 
+4. Tréninkové metody: Kniha popisuje širokou škálu tréninkových metod, které lze aplikovat pro různé sportovní disciplíny a úrovně sportovců. Detailně rozebírá metody objemového, intenzivního i intervalového tréninku a jejich vliv na různé složky výkonu. 
+5. Fyziologie sportovního výkonu: Autoři se věnují také fyziologickým aspektům sportovního výkonu. Zkoumají, jak trénink ovlivňuje kardiovaskulární, svalový a nervový systém, a jak optimalizovat regeneraci, výživu a odpočinek pro zlepšení výkonu. 
+6. Psychologické aspekty tréninku: Sportovní trénink není jen fyzickou záležitostí, ale zahrnuje také mentální přípravu. Kniha zmiňuje důležitost motivace, soustředění, zvládání stresu a psychické odolnosti pro dosažení maximálního výkonu. 
+7. Vyhodnocení a monitoring: Kniha poskytuje návody na to, jak systematicky monitorovat a vyhodnocovat pokroky sportovců pomocí různých měřících metod. Autoři zdůrazňují důležitost zpětné vazby a analýzy výkonu pro dlouhodobý rozvoj. 
+8. Specifika tréninku v různých sportech: Autoři rozebírají specifika tréninku pro různé druhy sportů (individuální vs. kolektivní sporty, silové vs. vytrvalostní disciplíny) a jak přizpůsobit tréninkové plány konkrétním požadavkům sportovce. 
+Kniha "Sportovní trénink" je komplexním průvodcem procesem sportovního tréninku, který kombinuje vědecké poznatky s praktickými návody. Poskytuje trenérům a sportovcům nástroje pro efektivní plánování a realizaci tréninku s důrazem na dlouhodobý rozvoj výkonu. 
+ 
+  
+8.   Kondiční příprava dětí a mládeže 
+Kniha "Kondiční příprava dětí a mládeže" od Tomáše Zumra se zaměřuje na systematický přístup k tréninku fyzické kondice u dětí a mládeže. Autor se v ní věnuje především tomu, jak správně přizpůsobit cvičení a tréninkový program věkovým kategoriím a vývojovým potřebám mladých sportovců, aby se optimalizoval jejich fyzický i mentální rozvoj. 
+Klíčové oblasti, které kniha pokrývá: 
+* Základní principy kondiční přípravy: Autor vysvětluje, jak postupně budovat fyzickou zdatnost, zlepšovat koordinaci, sílu, rychlost a vytrvalost, aniž by došlo k přetížení mladého organismu. 
+* Rozvoj pohybových schopností: Kniha se zabývá různými fázemi vývoje dětí a mládeže a jak je třeba cvičení a trénink přizpůsobit jejich věku, schopnostem a biologickému vývoji. 
+* Prevence zranění: Velký důraz je kladen na prevenci zranění skrze správné techniky cvičení, posilování stabilizačních svalů a rozvíjení flexibility. 
+* Psychologické aspekty tréninku: Kniha také pokrývá mentální přípravu a to, jak motivovat děti a mládež k dosažení svých sportovních cílů. 
+Tomáš Zumr, jako odborník na kondiční trénink a sportovní přípravu, poskytuje trenérům, rodičům i pedagogům praktické návody a tipy, jak přistupovat k tréninku dětí a mládeže tak, aby jim nejen pomohl fyzicky růst, ale také je bavil a motivoval. Kniha obsahuje i praktické ukázky cvičení a tréninkových plánů pro různé věkové kategorie. 
+ 
+ 
+9. Linky 
+ 
+10. Seznam linek 
+ 
+
